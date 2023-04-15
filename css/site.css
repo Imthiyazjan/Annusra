@@ -137,17 +137,9 @@
     }
 }
 
-.main-content {
-    /*animation: loader-content 1s linear;*/
-    /*transition: opacity 10s ease-in-out;*/
-  }
-
-  @keyframes loader-content {
-    0%,50%{
-        opacity: 0.5;
-    }
-    51%,100%{
-        opacity: 1;
+  @media screen and (max-width: 991px) {
+    .preloader2{
+        left: 40%;
     }
   }
   
